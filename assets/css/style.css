@@ -10,18 +10,44 @@ h1 {
     position: absolute;
     left: 1vw;
     border-style: solid;
+    text-align: center;
 }
 
 #game-area2 {
     position: absolute;
     right: 1vw;
     border-style: solid;
+    text-align: center;
 }
 
 button {
     font-size: x-large;
 }
 
+img {
+    width: 35vw;
+    height: 43vh;
+    object-fit: contain;
+
+}
+
+.dice {
+    font-size: large;
+    padding: 10px;
+}
+
+.score-area {
+    font-size: larger;
+    padding: 10px;
+}
+
+#win {
+    text-align: center;
+    font-size: 52px;
+    color: red;
+}
+
+/*style for screen size*/
 @media screen and (max-width:420px) {
 
     h1 {
@@ -32,4 +58,7 @@ button {
         font-size: large;
     }
 
+    #win {
+        font-size: 42pc;
+    }
 }
