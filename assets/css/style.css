@@ -1,6 +1,10 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+body {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     font-size: 52px;
@@ -23,11 +27,14 @@ h1 {
 }
 
 button {
-    font-size: x-large;
+    font-size: large;
+    position: relative;
+    top: 29vh;
+
 }
 
-#automatic {
-    font-size: x-large;
+.automatic {
+    font-size: large;
 }
 
 img {
@@ -53,22 +60,38 @@ img {
     color: red;
 }
 
+
 /*style for screen size*/
-@media screen and (max-width:420px) {
-
-    h1 {
-        font-size: 42px;
-    }
-
+@media screen and (max-width:650px) {
     button {
-        font-size: large;
+        font-size: medium;
     }
 
-    #automatic {
-        font-size: large;
+    img {
+        width: 29vw;
+        height: 35vh;
     }
 
-    #win {
-        font-size: 42pc;
-    }
-}
+    /*style for screen size*/
+    @media screen and (max-width:490px) {
+
+        h1 {
+            font-size: 42px;
+        }
+
+        button {
+            font-size: small;
+        }
+
+        img {
+            width: 26vw;
+            height: 28vh;
+
+            .automatic {
+                font-size: large;
+            }
+
+            #win {
+                font-size: 42pc;
+            }
+        }
