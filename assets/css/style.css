@@ -1,2 +1,35 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+h1 {
+    text-align: center;
+    font-size: 52px;
+}
+
+#game-area1 {
+    position: absolute;
+    left: 1vw;
+    border-style: solid;
+}
+
+#game-area2 {
+    position: absolute;
+    right: 1vw;
+    border-style: solid;
+}
+
+button {
+    font-size: x-large;
+}
+
+@media screen and (max-width:420px) {
+
+    h1 {
+        font-size: 42px;
+    }
+
+    button {
+        font-size: large;
+    }
+
+}
