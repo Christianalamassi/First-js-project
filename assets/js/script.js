@@ -25,7 +25,7 @@ function roll() {
 
     if (fb > fa) {
         document.getElementById('score-area2').innerText = `You got: ${++scoreArea2}`;
-        if (scoreArea2 > 14) {
+        if (scoreArea2 >= 15) {
             alert("The Game is over, You won");
             wins.innerText = `You are Winner`;
         }
@@ -34,7 +34,7 @@ function roll() {
         document.getElementById('score-area2').innerText = `You Got: ${++scoreArea2}`;
     } else {
         document.getElementById('score-area1').innerText = `Computer Got: ${++scoreArea1}`;
-        if (scoreArea1 > 14) {
+        if (scoreArea1 >= 15) {
             alert("The Game is over, You lost");
             wins.innerText = `Sorry, try agian`;
         }
