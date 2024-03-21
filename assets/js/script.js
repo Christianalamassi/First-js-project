@@ -1,41 +1,15 @@
-//The Html Elements I called
-let photos1 = document.getElementById('photo1');
-let photos2 = document.getElementById('photo2');
-
-
-let dicesA = document.getElementById('diceA');
-let dicesB = document.getElementById("diceB");
-
-
-let scoreArea1 = document.getElementById('score-area1').innerText;
-let scoreArea2 = document.getElementById('score-area2').innerText;
+// the Elements area
 
 let buttons = document.getElementsByTagName('button');
-
+let dicesA = document.getElementById('diceA');
+let dicesB = document.getElementById("diceB");
+let photos1 = document.getElementById('photo1');
+let photos2 = document.getElementById('photo2');
+let scoreArea1 = document.getElementById('score-area1').innerText;
+let scoreArea2 = document.getElementById('score-area2').innerText;
 let wins = document.getElementById('win');
 
-
-// the workarea
-document.addEventListener('click', function () {
-    let fafb = faceDiceA() + " " + "," + " " + faceDiceB();
-    let fcfd = faceDiceC() + " " + "," + " " + faceDiceD();
-
-    if (fafb >= fcfd) {
-        document.getElementById('score-area1').innerText = ++scoreArea1;
-    } else {
-        document.getElementById('score-area2').innerText = ++scoreArea2;
-    }
-
-
-    photos1.src = `../iamges/d-${faceDiceA()}.jpg` + `../iamges/d-${faceDiceB()}.jpg`;
-    photos2.src = `../iamges/d-${faceDiceC()}.jpg` + `../iamges/d-${faceDiceD()}.jpg`;
-
-
-    dicesA.innerText = fafb;
-    dicesB.innerText = fcfd;
-    console.log(scoreNum());
-
-});
+// The work area
 
 function faceDiceA() {
     return Math.ceil(Math.random() * 6);
@@ -47,11 +21,22 @@ function faceDiceB() {
 
 }
 
-function faceDiceC() {
-    return Math.ceil(Math.random() * 6);
-}
+function roll() {
+    let fa = faceDiceA();
+    let fb = faceDiceB();
 
-function faceDiceD() {
-    return Math.ceil(Math.random() * 6);
+    if (fa > fb) {
+        document.getElementById('score-area1').innerText = `Computer got: ${++scoreArea1}`;
+    } else if (fa === fb) {
+        document.getElementById('score-area1').innerText = `Computer got: ${++scoreArea1}`;
+        document.getElementById('score-area2').innerText = `You Got: ${++scoreArea2}`;
+    } else {
+        document.getElementById('score-area2').innerText = `You Got: ${++scoreArea2}`;
+    }
 
+    dicesA.innerText = fa;
+    dicesB.innerText = fb;
+
+    photos1.src = `assets/images/d${fa}.png`;
+    photos2.src = `assets/images/d${fb}.png`;
 }
