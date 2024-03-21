@@ -72,6 +72,10 @@ img {
         height: 35vh;
     }
 
+    .score-area {
+        font-size: medium;
+    }
+
     /*style for screen size*/
     @media screen and (max-width:490px) {
 
@@ -80,6 +84,10 @@ img {
         }
 
         button {
+            font-size: small;
+        }
+
+        .score-area {
             font-size: small;
         }
 
