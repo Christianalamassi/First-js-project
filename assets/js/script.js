@@ -28,6 +28,8 @@ function roll() {
         if (scoreArea2 >= 15) {
             alert("The Game is over, You won");
             wins.innerText = `You are Winner`;
+            document.location.reload();
+            clearInterval(wins);
         }
     } else if (fa === fb) {
         document.getElementById('score-area1').innerText = `Computer got: ${++scoreArea1}`;
@@ -37,6 +39,8 @@ function roll() {
         if (scoreArea1 >= 15) {
             alert("The Game is over, You lost");
             wins.innerText = `Sorry, try agian`;
+            document.location.reload();
+            clearInterval(wins);
         }
     }
 
