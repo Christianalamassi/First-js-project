@@ -1,16 +1,22 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+* {
+    border: none;
+    box-sizing: border-box;
+}
+
 body {
     text-align: center;
     background-color: rgba(6, 37, 132, 0.4);
 }
 
-header {
+#main-first {
     border-style: solid;
     text-align: center;
     margin: 8vh 26vw;
     color: white;
+    line-height: 6vh;
 }
 
 #pageA {
@@ -21,9 +27,10 @@ a {
     font-size: xx-large;
     text-decoration: none;
     border-radius: 25px;
-    padding: 0px 1vw;
+    padding: 0px 2vw;
 }
 
+/* adding a shadow to all links*/
 a:hover {
     box-shadow: 0 12px 16px 0 rgba(12, 12, 12, 0.922), 0 17px 50px 0 rgba(108, 228, 11, 0.19);
 }
@@ -99,8 +106,17 @@ img {
 }
 
 
-/*style for screen size*/
+/*style for screen size 650px*/
 @media screen and (max-width:650px) {
+    #main-first {
+        line-height: 5vh;
+        margin: 8vh 19vw;
+    }
+
+    #pageA {
+        padding: 0px 5vw;
+    }
+
     a {
         font-size: medium;
     }
@@ -121,35 +137,45 @@ img {
     #win {
         font-size: medium;
     }
+}
 
-    /*style for screen size*/
-    @media screen and (max-width:490px) {
-        a {
-            font-size: small;
-        }
-
-        h1 {
-            font-size: 42px;
-        }
-
-        button {
-            font-size: small;
-        }
-
-        .score-area {
-            font-size: small;
-        }
-
-        img {
-            width: 26vw;
-            height: 28vh;
-        }
-
-        .automatic {
-            font-size: large;
-        }
-
-        #win {
-            font-size: medium;
-        }
+/*style for screen size 490px*/
+@media screen and (max-width:490px) {
+    #main-first {
+        line-height: 4vh;
+        margin: 8vh 10vw;
     }
+
+    #pageA {
+        padding: 0px 0vw;
+    }
+
+    a {
+        font-size: small;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    button {
+        font-size: small;
+    }
+
+    .score-area {
+        font-size: small;
+    }
+
+    img {
+        width: 26vw;
+        height: 28vh;
+    }
+
+    .automatic {
+        font-size: large;
+    }
+
+    #win {
+        font-size: medium;
+    }
+}

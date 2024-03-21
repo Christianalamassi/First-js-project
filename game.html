@@ -22,36 +22,41 @@
 
 <body>
     <h1>Dice Game</h1>
-    <div id="game-area1">
-        <img id="photo1" src="assets/images/pngimg.png">
-        <div class="dice" id="diceA">0</div>
-        <div class="automatic">Computer</div>
-    </div>
+    <main>
+        <!--the Computer area -->
+        <div id="game-area1">
+            <img id="photo1" src="assets/images/pngimg.png" alt="two dice have face six one and three">
+            <div class="dice" id="diceA">0</div>
+            <div class="automatic">Computer</div>
+        </div>
 
+        <!--the player area -->
+        <div id="game-area2">
+            <img id="photo2" src="assets/images/pngimg.png" alt="two dice have face six one and three">
+            <div class="dice" id="diceB">0</div>
+            <div class="automatic">You</div>
+        </div>
 
-    <div id="game-area2">
-        <img id="photo2" src="assets/images/pngimg.png">
-        <div class="dice" id="diceB">0</div>
-        <div class="automatic">You</div>
-    </div>
+        <!--the score area-->
+        <div class="score-area" id="score-area2">0</div>
+        <div class="score-area" id="score-area1">0</div>
 
-    <div class="score-area" id="score-area2">0</div>
-    <div class="score-area" id="score-area1">0</div>
+        <section>
+            <!-- here added the script of onclick-->
+            <button onclick="roll()" onmousedown="audio.play()">Throw the Dice</button>
 
-    <!-- here added the script of onclick-->
-    <button onclick="roll()" onmousedown="audio.play()">Throw the Dice</button>
+            <div id="win"></div>
 
-    <div id="win"></div>
+            <a class="a-in-game-Page" href="game.html" aria-label="to start the game all over"><i
+                    class="fa-solid fa-power-off"></i>Restart</a>
+            <a class="a-in-game-Page" href="index.html" aria-label="to the home page"><i
+                    class="fa-solid fa-house"></i></a>
+        </section>
 
-    <a class="a-in-game-Page" href="game.html"><i class="fa-solid fa-power-off"></i>Restart</a>
-    <a class="a-in-game-Page" href="index.html"><i class="fa-solid fa-house"></i></a>
+        <!--Here where JS is writen-->
+        <script src="assets/js/script.js" type="text/javascript"></script>
 
-
-    <!--<audio autoplay="" src="assets/audio/backgroun.mp3"></audio>-->
-    <!--Here where JS is writen-->
-    <script src="assets/js/script.js" type="text/javascript"></script>
-
-
+    </main>
 </body>
 
 </html>
