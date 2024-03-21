@@ -47,9 +47,10 @@ function roll() {
     dicesA.innerText = fa;
     dicesB.innerText = fb;
 
+    // here where to change the photos according the dice
     photos1.src = `assets/images/d${fa}.png`;
     photos2.src = `assets/images/d${fb}.png`;
 }
-
+// the click audio
 let audio = new Audio();
 audio.src = "assets/audio/mouse.mp3";
