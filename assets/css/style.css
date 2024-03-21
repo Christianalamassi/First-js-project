@@ -9,7 +9,8 @@ body {
 header {
     border-style: solid;
     text-align: center;
-    margin: 10vh 13vw;
+    margin: 8vh 26vw;
+    color: white;
 }
 
 #pageA {
@@ -20,16 +21,25 @@ a {
     font-size: xx-large;
     text-decoration: none;
     border-radius: 25px;
+    padding: 0px 1vw;
 }
 
 a:hover {
     box-shadow: 0 12px 16px 0 rgba(12, 12, 12, 0.922), 0 17px 50px 0 rgba(108, 228, 11, 0.19);
 }
 
+.a-in-game-Page {
+    position: relative;
+    top: 40vh;
+}
+
+
 h1 {
     text-align: center;
     font-size: 52px;
+    color: black;
 }
+
 
 #game-area1 {
     position: absolute;
