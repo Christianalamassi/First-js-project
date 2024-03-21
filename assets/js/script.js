@@ -9,8 +9,7 @@ let scoreArea1 = document.getElementById('score-area1').innerText;
 let scoreArea2 = document.getElementById('score-area2').innerText;
 let wins = document.getElementById('win');
 
-// The work area
-
+// function to get random number
 function faceDiceA() {
     return Math.ceil(Math.random() * 6);
 }
@@ -19,6 +18,7 @@ function faceDiceB() {
     return Math.ceil(Math.random() * 6);
 }
 
+// function to roll the dice
 function roll() {
     let fa = faceDiceA();
     let fb = faceDiceB();
@@ -45,6 +45,7 @@ function roll() {
 
     photos1.src = `assets/images/d${fa}.png`;
     photos2.src = `assets/images/d${fb}.png`;
-
-
 }
+
+let audio = new Audio();
+audio.src = "assets/audio/mouse.mp3";

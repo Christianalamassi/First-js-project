@@ -3,6 +3,7 @@
 
 body {
     text-align: center;
+    background-color: rgba(6, 37, 132, 0.4);
 }
 
 h1 {
@@ -16,6 +17,7 @@ h1 {
     border-style: solid;
     text-align: center;
     padding: 5px;
+    background-color: white;
 }
 
 #game-area2 {
@@ -24,6 +26,7 @@ h1 {
     border-style: solid;
     text-align: center;
     padding: 5px;
+    background-color: white;
 }
 
 button {
@@ -31,6 +34,11 @@ button {
     position: relative;
     top: 29vh;
 
+}
+
+button:hover {
+    color: rgb(51, 86, 86);
+    box-shadow: 0 12px 16px 0 rgba(12, 12, 12, 0.922), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 .automatic {
