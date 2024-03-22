@@ -76,7 +76,7 @@ h1 {
     background-color: white;
 }
 
-/* one button was userd in the whole program*/
+/* one button was used in the whole program*/
 button {
     font-size: large;
     position: relative;
@@ -109,6 +109,15 @@ img {
 .score-area {
     font-size: larger;
     padding: 10px;
+}
+
+.score {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    padding-top: 6vh;
+    padding-bottom: 0px;
 }
 
 #win {
@@ -171,6 +180,12 @@ footer h3 {
         font-size: medium;
     }
 
+    .score {
+        font-size: 19px;
+        color: #ffffff;
+        padding-top: 5vh;
+    }
+
     #win {
         font-size: large;
     }
@@ -210,6 +225,12 @@ footer h3 {
 
     .score-area {
         font-size: small;
+    }
+
+    .score {
+        font-size: 10px;
+        color: #ffffff;
+        padding-top: 3vh;
     }
 
     img {

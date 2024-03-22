@@ -26,7 +26,8 @@ function roll() {
     let fa = faceDiceA();
     let fb = faceDiceB();
 
-    //all the process after the clicking
+    /*all the process after the clicking
+     *also here the game over screen*/
     if (fb > fa) {
         document.getElementById('score-area2').innerText = `${++scoreArea2}`;
         if (scoreArea2 >= 15) {
@@ -48,6 +49,7 @@ function roll() {
         }
     }
 
+    // the random dice
     dicesA.innerText = fa;
     dicesB.innerText = fb;
 
