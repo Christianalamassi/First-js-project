@@ -9,8 +9,7 @@ let scoreArea1 = document.getElementById('score-area1').innerText;
 let scoreArea2 = document.getElementById('score-area2').innerText;
 let wins = document.getElementById('win');
 let results = document.getElementById('result');
-
-
+let mains = document.getElementsByTagName('main');
 
 
 // function to get random number
@@ -28,7 +27,7 @@ function roll() {
     let fb = faceDiceB();
 
     if (fb > fa) {
-        document.getElementById('score-area2').innerText = `You Got: ${++scoreArea2}`;
+        document.getElementById('score-area2').innerText = `${++scoreArea2}`;
         if (scoreArea2 >= 15) {
             alert("The Game is over, You won");
             wins.style.visibility = 'visible';
@@ -37,10 +36,10 @@ function roll() {
             //clearInterval(wins);
         }
     } else if (fa === fb) {
-        document.getElementById('score-area1').innerText = `Computer Got: ${++scoreArea1}`;
-        document.getElementById('score-area2').innerText = `You Got: ${++scoreArea2}`;
+        document.getElementById('score-area1').innerText = `${++scoreArea1}`;
+        document.getElementById('score-area2').innerText = ` ${++scoreArea2}`;
     } else {
-        document.getElementById('score-area1').innerText = `Computer Got: ${++scoreArea1}`;
+        document.getElementById('score-area1').innerText = `${++scoreArea1}`;
         if (scoreArea1 >= 15) {
             alert("The Game is over, You lost");
             wins.style.visibility = 'visible';
@@ -60,7 +59,3 @@ function roll() {
 // the click audio
 let audio = new Audio();
 audio.src = "assets/audio/mouse.mp3";
-
-function result() {
-    wins.style.visibility = 'visible';
-}

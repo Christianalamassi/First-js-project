@@ -38,20 +38,24 @@
         </div>
 
         <!--the score area-->
-        <div class="score-area" id="score-area2">0</div>
-        <div class="score-area" id="score-area1">0</div>
+        <h3>You Gotot:
+            <div class="score-area" id="score-area2"> 0</div>
+        </h3>
 
-        
-            <!-- here added the script of onclick-->
-            <button onclick="roll()" onmousedown="audio.play()">Throw the Dice</button>
+        <h3>Computer Got:
+            <div class="score-area" id="score-area1"> 0</div>
+        </h3>
 
-            <div id="win">
-                <h2 id="result"></h2>
-                <a class="reset" href="game.html" aria-label="to start the game all over"> Restart </a>
-                <a class="reset" href="index.html"  aria-label="to the home page"> Home </a>
-            </div>
+        <!-- here added the script of onclick-->
+        <button onclick="roll()" onmousedown="audio.play()">Throw the Dice</button>
 
-            <section>
+        <div id="win">
+            <h2 id="result"></h2>
+            <a class="reset" href="game.html" aria-label="to start the game all over"> Restart </a>
+            <a class="reset" href="index.html" aria-label="to the home page"> Home </a>
+        </div>
+
+        <section>
             <a class="a-in-game-Page" href="game.html" aria-label="to start the game all over"><i
                     class="fa-solid fa-power-off"></i>Restart</a>
 
