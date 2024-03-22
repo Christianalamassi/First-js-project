@@ -1,6 +1,7 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
+/* kept the margian and padding in purpose*/
 * {
     border: none;
     box-sizing: border-box;
@@ -23,6 +24,7 @@ body {
     padding: 0px 10vw;
 }
 
+/* you find all the a link here*/
 a {
     font-size: xx-large;
     text-decoration: none;
@@ -40,6 +42,9 @@ a:hover {
     top: 40vh;
 }
 
+.reset {
+    font-size: 20px;
+}
 
 h1 {
     text-align: center;
@@ -101,13 +106,32 @@ img {
 
 #win {
     text-align: center;
-    font-size: xx-large;
+    font-size: 15px;
     color: red;
+    visibility: hidden;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+}
+
+#contact {
+    font-size: x-large;
+    color: yellow;
+}
+
+#contact:hover {
+    box-shadow: none;
+    color: rgb(0, 0, 255);
 }
 
 
-/*style for screen size 650px*/
-@media screen and (max-width:650px) {
+/*style for screen size 700px*/
+@media screen and (max-width:700px) {
     #main-first {
         line-height: 5vh;
         margin: 8vh 19vw;
@@ -137,6 +161,15 @@ img {
     #win {
         font-size: medium;
     }
+
+    footer {
+        font-size: large;
+    }
+
+    #contact {
+        font-size: large;
+    }
+
 }
 
 /*style for screen size 490px*/
@@ -177,5 +210,21 @@ img {
 
     #win {
         font-size: medium;
+    }
+
+    footer {
+        font-size: medium;
+    }
+
+    #contact {
+        font-size: medium;
+    }
+
+    #win {
+        font-size: 8px;
+    }
+
+    .reset {
+        font-size: 10px;
     }
 }
