@@ -30,7 +30,7 @@ body {
     padding: 0px 10vw;
 }
 
-/* you find all the a link here*/
+/* you find all the a link here except the footer*/
 a {
     font-size: xx-large;
     text-decoration: none;
@@ -58,7 +58,6 @@ h1 {
     color: black;
 }
 
-
 #game-area1 {
     position: absolute;
     left: 1vw;
@@ -77,6 +76,7 @@ h1 {
     background-color: white;
 }
 
+/* one button was userd in the whole program*/
 button {
     font-size: large;
     position: relative;
@@ -118,6 +118,7 @@ img {
     visibility: hidden;
 }
 
+/*inclouds the contact*/
 footer {
     position: absolute;
     bottom: 0px;

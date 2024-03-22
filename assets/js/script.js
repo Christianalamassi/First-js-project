@@ -1,4 +1,4 @@
-// the Elements area
+// the adopting area of Elements
 
 let buttons = document.getElementsByTagName('button');
 let dicesA = document.getElementById('diceA');
@@ -26,6 +26,7 @@ function roll() {
     let fa = faceDiceA();
     let fb = faceDiceB();
 
+    //all the process after the clicking
     if (fb > fa) {
         document.getElementById('score-area2').innerText = `${++scoreArea2}`;
         if (scoreArea2 >= 15) {
