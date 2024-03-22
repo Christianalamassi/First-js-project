@@ -43,7 +43,7 @@ function roll() {
             alert("The Game is over, You lost");
             mains.style.visibility = 'hidden';
             wins.style.visibility = 'visible';
-            results.innerText = `You are Winner`;
+            results.innerText = `You lost`;
         }
     }
 

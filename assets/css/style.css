@@ -1,10 +1,11 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-/* kept the margian and padding in purpose*/
+/* kept padding in purpose*/
 * {
     border: none;
     box-sizing: border-box;
+    margin: 0px;
 }
 
 body {
@@ -80,6 +81,7 @@ button {
     font-size: large;
     position: relative;
     top: 29vh;
+    border: 2px solid black;
 
 }
 
@@ -120,12 +122,17 @@ footer {
     position: absolute;
     bottom: 0px;
     width: 100%;
-    color: rgb(0, 0, 0);
-    font-size: x-large;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+footer h3 {
+    padding: 10px;
 }
 
 #contact {
-    font-size: x-large;
+    font-size: 20px;
     color: yellow;
 }
 
