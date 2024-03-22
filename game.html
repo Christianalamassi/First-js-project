@@ -21,8 +21,11 @@
 </head>
 
 <body>
-    <h1>Dice Game</h1>
-    <main>
+    <header>
+        <h1>Dice Game</h1>
+    </header>
+
+    <main id="main-second">
         <!--the Computer area -->
         <div id="game-area1">
             <img id="photo1" src="assets/images/pngimg.png" alt="two dice have face six one and three">
@@ -49,11 +52,7 @@
         <!-- here added the script of onclick-->
         <button onclick="roll()" onmousedown="audio.play()">Throw the Dice</button>
 
-        <div id="win">
-            <h2 id="result"></h2>
-            <a class="reset" href="game.html" aria-label="to start the game all over"> Restart </a>
-            <a class="reset" href="index.html" aria-label="to the home page"> Home </a>
-        </div>
+
 
         <section>
             <a class="a-in-game-Page" href="game.html" aria-label="to start the game all over"><i
@@ -63,10 +62,20 @@
                     class="fa-solid fa-house"></i></a>
         </section>
 
-        <!--Here where JS is writen-->
-        <script src="assets/js/script.js" type="text/javascript"></script>
+
 
     </main>
+
+    <article>
+        <div id="win">
+            <h2 id="result"></h2>
+            <a class="reset" href="game.html" aria-label="to start the game all over"> Restart </a>
+            <a class="reset" href="index.html" aria-label="to the home page"> Home </a>
+        </div>
+    </article>
+
+    <!--Here where JS is writen-->
+    <script src="assets/js/script.js" type="text/javascript"></script>
 </body>
 
 </html>

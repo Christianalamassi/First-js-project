@@ -9,7 +9,7 @@ let scoreArea1 = document.getElementById('score-area1').innerText;
 let scoreArea2 = document.getElementById('score-area2').innerText;
 let wins = document.getElementById('win');
 let results = document.getElementById('result');
-let mains = document.getElementsByTagName('main');
+let mains = document.getElementById('main-second');
 
 
 // function to get random number
@@ -30,10 +30,9 @@ function roll() {
         document.getElementById('score-area2').innerText = `${++scoreArea2}`;
         if (scoreArea2 >= 15) {
             alert("The Game is over, You won");
+            mains.style.visibility = 'hidden';
             wins.style.visibility = 'visible';
             results.innerText = `You are Winner`;
-            //document.location.reload();
-            //clearInterval(wins);
         }
     } else if (fa === fb) {
         document.getElementById('score-area1').innerText = `${++scoreArea1}`;
@@ -42,10 +41,9 @@ function roll() {
         document.getElementById('score-area1').innerText = `${++scoreArea1}`;
         if (scoreArea1 >= 15) {
             alert("The Game is over, You lost");
+            mains.style.visibility = 'hidden';
             wins.style.visibility = 'visible';
             results.innerText = `You are Winner`;
-            // document.location.reload();
-            //clearInterval(wins);
         }
     }
 

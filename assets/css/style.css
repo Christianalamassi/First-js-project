@@ -20,6 +20,11 @@ body {
     line-height: 6vh;
 }
 
+/* add for JS purpose*/
+#main-second {
+    visibility: visible;
+}
+
 #pageA {
     padding: 0px 10vw;
 }
@@ -43,7 +48,7 @@ a:hover {
 }
 
 .reset {
-    font-size: 20px;
+    font-size: 32px;
 }
 
 h1 {
@@ -106,7 +111,7 @@ img {
 
 #win {
     text-align: center;
-    font-size: 15px;
+    font-size: 32px;
     color: red;
     visibility: hidden;
 }
@@ -159,7 +164,7 @@ footer {
     }
 
     #win {
-        font-size: medium;
+        font-size: large;
     }
 
     footer {
@@ -220,11 +225,7 @@ footer {
         font-size: medium;
     }
 
-    #win {
-        font-size: 8px;
-    }
-
     .reset {
-        font-size: 10px;
+        font-size: 15px;
     }
 }
