@@ -23,7 +23,7 @@ body {
     text-align: center;
     margin: 8vh 26vw;
     color: white;
-    line-height: 6vh;
+    line-height: 6.5vh;
 }
 
 /* add for JS purpose*/
@@ -163,8 +163,8 @@ footer h3 {
 }
 
 
-/*style for screen size 700px*/
-@media screen and (max-width:700px) {
+/*style for screen size 720px*/
+@media screen and (max-width:720px) {
     #main-first {
         line-height: 5vh;
         margin: 8vh 19vw;
