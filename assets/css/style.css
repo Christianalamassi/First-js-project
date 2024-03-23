@@ -214,7 +214,7 @@ footer h3 {
 /*style for screen size 490px*/
 @media screen and (max-width:490px) {
     #main-first {
-        line-height: 4vh;
+        line-height: 5vh;
         margin: 8vh 10vw;
     }
 
