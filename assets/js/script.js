@@ -34,7 +34,7 @@ function roll() {
             alert("The Game is over, You won");
             mains.style.visibility = 'hidden';
             wins.style.visibility = 'visible';
-            results.innerText = `You are Winner`;
+            results.innerText = `You Won`;
         }
     } else if (fa === fb) {
         document.getElementById('score-area1').innerText = `${++scoreArea1}`;
