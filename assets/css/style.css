@@ -15,7 +15,7 @@ body {
 
 /*the body of first page only*/
 #first-page {
-    background-color: rgb(6, 37, 132);
+    background-color: rgb(7, 64, 234);
 }
 
 #main-first {
@@ -41,7 +41,9 @@ a {
     text-decoration: none;
     border-radius: 25px;
     padding: 0px 2vw;
-    color: aqua;
+    color: rgb(0, 255, 255);
+    border-style: solid;
+    border-radius: 25px;
 }
 
 /* adding a shadow to all links*/
@@ -152,6 +154,7 @@ footer h3 {
 #contact {
     font-size: 20px;
     color: yellow;
+    border-style: none;
 }
 
 #contact:hover {
