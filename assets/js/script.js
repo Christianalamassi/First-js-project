@@ -1,6 +1,4 @@
 // the adopting area of Elements
-
-let buttons = document.getElementsByTagName('button');
 let dicesA = document.getElementById('diceA');
 let dicesB = document.getElementById("diceB");
 let photos1 = document.getElementById('photo1');
@@ -49,14 +47,18 @@ function roll() {
         }
     }
 
+
     // the random dice
     dicesA.innerText = fa;
     dicesB.innerText = fb;
+
 
     // here where to change the photos according the dice
     photos1.src = `assets/images/d${fa}.png`;
     photos2.src = `assets/images/d${fb}.png`;
 }
+
+
 // the click audio
 let audio = new Audio();
 audio.src = "assets/audio/mouse.mp3";
