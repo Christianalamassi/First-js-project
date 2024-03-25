@@ -105,7 +105,7 @@ I confirmed that the colors and fonts are clear for the users, by running it thr
 
 ### Content
 #### Websits were useed in coding the game
-[W3](https://validator.w3.org/#validate_by_input),  [css-validato](https://jigsaw.w3.org/css-validator/),  [Jshint validator](https://jshint.com/), [amiresponsive](https://ui.dev/amiresponsive),  [fontawesome](https://fontawesome.com/), [ficon](https://www.favicon.cc/),[googlefont](https://fonts.google.com/)
+[W3](https://validator.w3.org/#validate_by_input),  [css-validato](https://jigsaw.w3.org/css-validator/),  [Jshint validator](https://jshint.com/), [amiresponsive](https://ui.dev/amiresponsive),  [fontawesome](https://fontawesome.com/), [ficon](https://www.favicon.cc/),[googlefont](https://fonts.google.com/), [responsiveviewer](https://responsiveviewer.org)
 
 #### inspiration
 [Love Maths](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/?child=first), [W3school](https://www.w3schools.com/js/default.asp)
