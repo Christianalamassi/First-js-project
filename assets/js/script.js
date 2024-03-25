@@ -3,14 +3,14 @@ const dicesA = document.getElementById('diceA');
 const dicesB = document.getElementById("diceB");
 const photos1 = document.getElementById('photo1');
 const photos2 = document.getElementById('photo2');
-const scoreArea1 = document.getElementById('score-area1').innerText;
-const scoreArea2 = document.getElementById('score-area2').innerText;
+let scoreArea1 = document.getElementById('score-area1').innerText;
+let scoreArea2 = document.getElementById('score-area2').innerText;
 const wins = document.getElementById('win');
 const results = document.getElementById('result');
 const mains = document.getElementById('main-second');
 
 
-/**function to get random number */ 
+/**function to get random number */
 function faceDiceA() {
     return Math.ceil(Math.random() * 6);
 }
@@ -25,7 +25,7 @@ function roll() {
     let fb = faceDiceB();
 
     //all the process after the clicking
-     //also here the game over screen
+    //also here the game over screen
     if (fb > fa) {
         document.getElementById('score-area2').innerText = `${++scoreArea2}`;
         if (scoreArea2 >= 15) {
@@ -59,6 +59,6 @@ function roll() {
 }
 
 
-/**the click audio */ 
+/**the click audio */
 let audio = new Audio();
 audio.src = "assets/audio/mouse.mp3";

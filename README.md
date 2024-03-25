@@ -1,6 +1,6 @@
 # Dice Game
 
-"Dice Game" is an easy to play userfriendly game for anyone who is looking for a nice passtime without having to concentrate too much, for example when using public transportation or taking a break.The user gets to play against the computer. In clicking a single button, the player and the computer simultaneously throw two dice and the result shows both the player's as well as the computer's score. The throw with the higher number wins the round and gains one point. Whoever has 15 points first, wins the game. The user is then offered to play again which is provided also with the click of one button. The game is programmed with Java Script and the website designed with HTML/CSS.
+"Dice Game" is an easy to play userfriendly game for anyone who is looking for a nice passtime without having to concentrate too much, for example when using public transportation or taking a break.The user gets to play against the computer. In clicking a single button, the player and the computer simultaneously throw two dice and the result shows both the player's as well as the computer's score. The throw with the higher number wins the round and gains one point. Whoever has 15 points first, wins the game. The user is then offered to play again which is provided also with the click of one button. The game is programmed with Java Script and the website designed with HTML/CSS. [Dice Game](https://christianalamassi.github.io/First-js-project/) 
 
 <img src="img-readme/capture-c.jpg">
 
@@ -56,7 +56,10 @@ Below that there is the "Throw Dice" button, easily to find for the user.
 
 - The color blue rgba(6, 37, 132, 0.4) and rgb(7, 64, 234) was used in the background because it is very comfrtuble for the eyes.
 
-- Added the scoring area in the middle, between the game area to make it easy to follow the scores
+- Added the scoring area in the middle, between the game area to make it easy to follow the scores.
+
+- I used different font family just for decoration
+
 ## Accessability
 I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools.
 
@@ -100,7 +103,7 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 
 - The most complex function has a cyclomatic complexity value of 5 while the median is 1.
 
-<img src="img-readme/js.png">
+<img src="img-readme/screencapture.png">
 
 ### Unfixed Bugs
 - In the end of the score area will show you just 14 points instead 15 points.
@@ -133,5 +136,5 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 [Love Maths](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/?child=first)
 
 ### Media
--The images were taken from [pngimg](pngimg.com), 
--The click sound was taken from[pixabay](https://pixabay.com/sound-effects/search/button-click/)
+- The images were taken from [pngimg](pngimg.com), 
+- The click sound was taken from[pixabay](https://pixabay.com/sound-effects/search/button-click/)
