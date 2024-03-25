@@ -44,6 +44,33 @@ Below that there is the "Throw Dice" button, easily to find for the user.
 
 <img src="img-readme/lpage.jpg">
 
+## Technologies Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) was used to add the styles and layout of the site.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JAVASCRIPT) was used for interaction
+- [Gitpod](https://www.gitpod.io/) was used for the version control of the website.
+- [GitHub](https://github.com/) was used to host the code of the website.
+
+## Design
+
+- The color blue rgba(6, 37, 132, 0.4) and rgb(7, 64, 234) was used in the background because it is very comfrtuble for the eyes.
+
+- Added the scoring area in the middle, between the game area to make it easy to follow the scores
+## Accessability
+I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools.
+
+<img src="img-readme/lighthouse.jpg">
+
+## Deployment
+
+### The site was deployed to GitHub pages through the following steps:
+
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the main
+- Once the main has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link is here [Dice Game](https://christianalamassi.github.io/First-js-project/)
+
 ## Testing
 - I tested my project in three different browsers (Chrome, Edge and Firefox) and the results were satisfying.
 
@@ -85,31 +112,26 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 <img src="img-readme/js.png">
 
 ### Unfixed Bugs
-There are no bugs that were funded in the code.
-
-## Accessability
-I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools.
-
-<img src="img-readme/lighthouse.jpg">
-
-## Deployment
-
-### The site was deployed to GitHub pages through the following steps:
-
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the main
-- Once the main has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-- The live link is here [Dice Game](https://christianalamassi.github.io/First-js-project/)
+- In the end of the score area will show you just 14 points instead 15 points.
+- The Click sound isn't available with volume control but isn't loud.
 
 ## Credits
 
 ### Content
-#### Websits were useed in coding the game
-[W3](https://validator.w3.org/#validate_by_input),  [css-validato](https://jigsaw.w3.org/css-validator/),  [Jshint validator](https://jshint.com/), [amiresponsive](https://ui.dev/amiresponsive),  [fontawesome](https://fontawesome.com/), [ficon](https://www.favicon.cc/),[googlefont](https://fonts.google.com/), [responsiveviewer](https://responsiveviewer.org)
+#### Websits were used in coding the game
+- To test HTML code[W3](https://validator.w3.org/#validate_by_input)
+- To test CSS code[css-validator](https://jigsaw.w3.org/css-validator/)  
+- To test JavaScript[Jshint validator](https://jshint.com/)
+- To check the program on different screen devices[amiresponsive](https://ui.dev/amiresponsive)
+- To get icons for buttons[fontawesome](https://fontawesome.com/) 
+- For the Logo of the website[ficon](https://www.favicon.cc/)
+- For fonte family[googlefont](https://fonts.google.com/) 
+- To check the program in different screen sizs[responsiveviewer](https://responsiveviewer.org)
+- For learing from[W3school](https://www.w3schools.com/js/default.asp)
 
 #### inspiration
-[Love Maths](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/?child=first), [W3school](https://www.w3schools.com/js/default.asp)
+[Love Maths](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/?child=first)
 
 ### Media
-The images were taken from [pngimg](pngimg.com), 
-The click sound was taken from[pixabay](https://pixabay.com/sound-effects/search/button-click/)
+-The images were taken from [pngimg](pngimg.com), 
+-The click sound was taken from[pixabay](https://pixabay.com/sound-effects/search/button-click/)
