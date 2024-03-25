@@ -131,8 +131,7 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 - For fonte family[googlefont](https://fonts.google.com/) 
 - To check the program in different screen sizs[responsiveviewer](https://responsiveviewer.org)
 - For learing from[W3school](https://www.w3schools.com/js/default.asp)
-
-#### inspiration
+- inspiration
 [Love Maths](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/?child=first)
 
 ### Media
