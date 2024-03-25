@@ -36,7 +36,7 @@ Below that there is the "Throw Dice" button, easily to find for the user.
 
 <img src="img-readme/m-2.jpg">
 
-- In the footer the user gets the options of clicking the "Restart" button or the "Home" button, both easily to identify with added symbols. 
+- In the bottom the user gets the options of clicking the "Restart" button or the "Home" button, both easily to identify with added symbols. 
 
 <img src="img-readme/f-2.jpg">
 
