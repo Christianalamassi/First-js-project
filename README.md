@@ -122,18 +122,18 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 
 ### Content
 #### Websits were used in coding the game
-- To test HTML code[W3](https://validator.w3.org/#validate_by_input)
-- To test CSS code[css-validator](https://jigsaw.w3.org/css-validator/)  
-- To test JavaScript[Jshint validator](https://jshint.com/)
-- To check the program on different screen devices[amiresponsive](https://ui.dev/amiresponsive)
-- To get icons for buttons[fontawesome](https://fontawesome.com/) 
-- For the Logo of the website[ficon](https://www.favicon.cc/)
-- For fonte family[googlefont](https://fonts.google.com/) 
+- To test HTML code [W3](https://validator.w3.org/#validate_by_input)
+- To test CSS code [css-validator](https://jigsaw.w3.org/css-validator/)  
+- To test JavaScript [Jshint validator](https://jshint.com/)
+- To check the program on different screen devices [amiresponsive](https://ui.dev/amiresponsive)
+- To get icons for buttons [fontawesome](https://fontawesome.com/) 
+- For the Logo of the website [ficon](https://www.favicon.cc/)
+- For fonte family [googlefont](https://fonts.google.com/) 
 - To check the program in different screen sizs[responsiveviewer](https://responsiveviewer.org)
-- For learing from[W3school](https://www.w3schools.com/js/default.asp)
+- For learing from [W3school](https://www.w3schools.com/js/default.asp)
 - inspiration
-[Love Maths](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/?child=first)
+[Love Maths] (https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/?child=first)
 
 ### Media
 - The images were taken from [pngimg](pngimg.com), 
-- The click sound was taken from[pixabay](https://pixabay.com/sound-effects/search/button-click/)
+- The click sound was taken from [pixabay](https://pixabay.com/sound-effects/search/button-click/)
