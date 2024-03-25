@@ -83,7 +83,7 @@ FireFox
 <img src="img-readme/capture-a.jpg">
 <img src="img-readme/capture-b.jpg">
 
-- The game is easy to use and play, the header, and about the game are easy to understand for the user, even the game it self, it's very simble to understand.
+- The game is easy to use and play, the header and about the game are easy to understand for the user, even the game it self, it's very simble to understand.
 
 ### Validator Testing
 #### HTML
@@ -107,7 +107,7 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 
 ### Unfixed Bugs
 - In the end of the score area will show you just 14 points instead 15 points.
-- The Click sound isn't available with volume control but isn't loud.
+- The Click sound isn't available without volume control but isn't loud. Also is sowler then the click.
 
 ## Deployment
 
