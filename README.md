@@ -107,7 +107,7 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 
 ### Unfixed Bugs
 - In the end of the score area will show you just 14 points instead 15 points.
-- The Click sound isn't available without volume control but isn't loud. Also is sowler then the click.
+- The Click sound isn't available without volume control but isn't loud. Also is slower than the click action.
 
 ## Deployment
 
