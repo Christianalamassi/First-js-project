@@ -58,7 +58,7 @@ Below that there is the "Throw Dice" button, easily to find for the user.
 
 - Added the scoring area in the middle, between the game area to make it easy to follow the scores.
 
-- I used different font family just for decoration
+- I used a different set of fonts just for decoration
 
 ## Accessability
 I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools.
