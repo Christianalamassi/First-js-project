@@ -62,15 +62,6 @@ I confirmed that the colors and fonts are clear for the users, by running it thr
 
 <img src="img-readme/lighthouse.jpg">
 
-## Deployment
-
-### The site was deployed to GitHub pages through the following steps:
-
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the main
-- Once the main has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-- The live link is here [Dice Game](https://christianalamassi.github.io/First-js-project/)
-
 ## Testing
 - I tested my project in three different browsers (Chrome, Edge and Firefox) and the results were satisfying.
 
@@ -114,6 +105,15 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 ### Unfixed Bugs
 - In the end of the score area will show you just 14 points instead 15 points.
 - The Click sound isn't available with volume control but isn't loud.
+
+## Deployment
+
+### The site was deployed to GitHub pages through the following steps:
+
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the main
+- Once the main has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- The live link is here [Dice Game](https://christianalamassi.github.io/First-js-project/)
 
 ## Credits
 
