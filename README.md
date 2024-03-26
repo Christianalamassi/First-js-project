@@ -103,7 +103,7 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 
 - The most complex function has a cyclomatic complexity value of 5 while the median is 1.
 
-<img src="img-readme/screencapture.png">
+<img src="img-readme/lpg.png">
 
 ### Unfixed Bugs
 - In the end of the game, the score area will show you the result after 14 points, instead of 15 points.
