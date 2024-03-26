@@ -24,6 +24,14 @@ function roll() {
     let fa = faceDiceA();
     let fb = faceDiceB();
 
+    // the random dice
+    dicesA.innerText = fa;
+    dicesB.innerText = fb;
+
+    // here where to change the photos according the dice
+    photos1.src = `assets/images/d${fa}.png`;
+    photos2.src = `assets/images/d${fb}.png`;
+
     //all the process after the clicking
     //also here the game over screen
     if (fb > fa) {
@@ -46,18 +54,7 @@ function roll() {
             results.innerText = `You lost`;
         }
     }
-
-
-    // the random dice
-    dicesA.innerText = fa;
-    dicesB.innerText = fb;
-
-
-    // here where to change the photos according the dice
-    photos1.src = `assets/images/d${fa}.png`;
-    photos2.src = `assets/images/d${fb}.png`;
 }
-
 
 /**the click audio */
 let audio = new Audio();
