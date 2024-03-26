@@ -47,18 +47,18 @@ Below that there is the "Throw Dice" button, easily to find for the user.
 ## Technologies Used
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) was used to add the styles and layout of the site.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) was used to add the style and layout of the site.
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JAVASCRIPT) was used for interaction
 - [Gitpod](https://www.gitpod.io/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
 
 ## Design
 
-- The color blue rgba(6, 37, 132, 0.4) and rgb(7, 64, 234) was used in the background because it is very comfrtuble for the eyes.
+- The color blue rgba(6, 37, 132, 0.4) and rgb(7, 64, 234) was used in the background because it is very comfortable for the eyes.
 
-- Added the scoring area in the middle, between the game area to make it easy to follow the scores.
+- Added the scoring area in the middle, in the middle of the game area to make it easy to follow the scores.
 
-- I used a different set of fonts just for decoration
+- I used a different set of fonts for decoration.
 
 ## Accessability
 I confirmed that the colors and fonts are clear for the users, by running it through the lighthouse in divtools.
@@ -78,12 +78,12 @@ FireFox
 
 <img src="img-readme/firefox.jpg">
 
-- The game was tested on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and it was content with the results here as well.
+- The game was tested on different screen sizes (laptop screens, desktop screens, tablet screens and phone screens) and I was content with the results here as well.
 
 <img src="img-readme/capture-a.jpg">
 <img src="img-readme/capture-b.jpg">
 
-- The game is easy to use and play, the header and about the game are easy to understand for the user, even the game it self, it's very simble to understand.
+- The game is easy to use and play, the header and "About the game" are easy to understand for the user, even the game itself is very simple to understand.
 
 ### Validator Testing
 #### HTML
@@ -93,7 +93,7 @@ FireFox
 No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fchristianalamassi.github.io%2FFirst-js-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 #### JavaScript
-- some warnings were founded [Jshint validator](https://jshint.com/)
+- Some warnings were found: [Jshint validator](https://jshint.com/)
 
 - There are 3 functions in this file.
 
@@ -106,8 +106,8 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 <img src="img-readme/screencapture.png">
 
 ### Unfixed Bugs
-- In the end of the score area will show you just 14 points instead 15 points.
-- The Click sound isn't available without volume control but isn't loud. Also is slower than the click action.
+- In the end of the game, the score area will show you the result after 14 points, instead of 15 points.
+- The click sound isn't available with volume control but it is not loud. Also it is slower than the click action.
 
 ## Deployment
 
@@ -127,12 +127,12 @@ No errors were found when passing through the official [(Jigsaw) validator](http
 - To test JavaScript [Jshint validator](https://jshint.com/)
 - To check the program on different screen devices [amiresponsive](https://ui.dev/amiresponsive)
 - To get icons for buttons [fontawesome](https://fontawesome.com/) 
-- For the Logo of the website [ficon](https://www.favicon.cc/)
-- For fonte family [googlefont](https://fonts.google.com/) 
-- To check the program in different screen sizs [responsiveviewer](https://responsiveviewer.org)
-- For learing from [W3school](https://www.w3schools.com/js/default.asp)
-- inspiration [Love Maths](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/?child=first)
+- For the icon of the website [ficon](https://www.favicon.cc/)
+- For font set [googlefont](https://fonts.google.com/) 
+- To check the program in different screen sizes [responsiveviewer](https://responsiveviewer.org)
+- Learning from [W3school](https://www.w3schools.com/js/default.asp)
+- Inspiration from [Love Maths](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LM101+2021_T1/courseware/2d651bf3f23e48aeb9b9218871912b2e/78f3c10a937c4fe09640c7c0098d16bd/?child=first)
 
 ### Media
-- The images were taken from [pngimg](pngimg.com), 
+- The images were taken from [pngimg](pngimg.com) 
 - The click sound was taken from [pixabay](https://pixabay.com/sound-effects/search/button-click/)
